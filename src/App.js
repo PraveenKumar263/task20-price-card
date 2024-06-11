@@ -5,7 +5,7 @@ import { PlanTier } from "./component/planTier.js"
 function App() {
   return (
     <div className="App">
-      <div className="row mt-2">
+      <div className="row">
         {pricePlan.map((data) => (
             <PlanTier tierData={data} />
           ))}
