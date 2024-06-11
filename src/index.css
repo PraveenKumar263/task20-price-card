@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-.tierBox:ul {
+.tierBox ul {
   list-style-type: none;
   background-color: white;
 }
