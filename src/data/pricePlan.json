@@ -1,0 +1,38 @@
+[
+    {
+        "tier": "FREE",
+        "price": 0,
+        "numUsers": [true, "Single User"],
+        "storage": [true, "50GB Storage"],
+        "publicProject": [true, "Unlimited Public Projects"],
+        "access": [true, "Community Access"],
+        "privateProject": [false, "Unlimited Private Projects"],
+        "phoneSupport": [false, "Dedicated Phone Support"],
+        "subdomain": [false, "Free Subdomain"],
+        "reports": [false, "Monthly Status Reports"]
+    },    
+    {
+        "tier": "PLUS",
+        "price": 9,
+        "numUsers": [true, "5 Users"],
+        "storage": [true, "50GB Storage"],
+        "publicProject": [true, "Unlimited Public Projects"],
+        "access": [true, "Community Access"],
+        "privateProject": [true, "Unlimited Private Projects"],
+        "phoneSupport": [true, "Dedicated Phone Support"],
+        "subdomain": [true, "Free Subdomain"],
+        "reports": [false, "Monthly Status Reports"]
+    },
+    {
+        "tier": "PRO",
+        "price": 49,
+        "numUsers": [true, "Unlimited Users"],
+        "storage": [true, "50GB Storage"],
+        "publicProject": [true, "Unlimited Public Projects"],
+        "access": [true, "Community Access"],
+        "privateProject": [true, "Unlimited Private Projects"],
+        "phoneSupport": [true, "Dedicated Phone Support"],
+        "subdomain": [true, "Free Subdomain"],
+        "reports": [true, "Monthly Status Reports"]
+    }
+]
