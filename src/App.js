@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <div className="row">
-        {pricePlan.map((data) => (
-            <PlanTier tierData={data} />
+        {pricePlan.map((data, index) => (
+            <PlanTier key={index} tierData={data}/>
           ))}
       </div>  
     </div>
